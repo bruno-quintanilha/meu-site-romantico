@@ -13,7 +13,7 @@
             margin: 0;
             padding: 0;
             text-align: center;
-            overflow-x: hidden; /* Evita barras de rolagem horizontais */
+            overflow-x: hidden;
         }
 
         /* Cabeçalho */
@@ -123,13 +123,13 @@
 
         /* Corações flutuantes */
         .heart {
-            position: fixed; /* Fixo para não interferir na rolagem */
+            position: fixed;
             width: 20px;
             height: 20px;
             background-color: #ff6f61;
             clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 50% 75%, 18% 100%, 0% 38%);
             animation: float 5s infinite ease-in-out;
-            z-index: 0; /* Fica abaixo do conteúdo */
+            z-index: 0;
         }
 
         @keyframes float {
@@ -161,13 +161,13 @@
     <!-- Slideshow de fotos -->
     <div class="slideshow-container">
         <div class="mySlides">
-            <img src="0832B6A7-58CF-4DF1-990B-51CEF0678E50.JPG" alt="EU">
+            <img src="0832B6A7-58CF-4DF1-990B-51CEF0678E50.JPG" alt="Nossa foto 1">
         </div>
         <div class="mySlides">
-            <img src="D7447624-5A73-4C28-8C5D-76B125A54EFA.JPG" alt="TE">
+            <img src="D7447624-5A73-4C28-8C5D-76B125A54EFA.JPG" alt="Nossa foto 2">
         </div>
         <div class="mySlides">
-            <img src="EA2954CB-8806-45AD-8DE2-DA76B62DF9D4.JPG" alt="AMO">
+            <img src="EA2954CB-8806-45AD-8DE2-DA76B62DF9D4.JPG" alt="Nossa foto 3">
         </div>
     </div>
 
@@ -486,10 +486,15 @@
     </footer>
 
     <!-- Música de fundo -->
-    <audio id="musica" autoplay loop>
+    <audio id="musica" loop>
         <source src="Iframe _Turning Page_ by Sleeping At Last (Official Music Video) [-hb2tecD13s].mp3" type="audio/mpeg">
         Seu navegador não suporta áudio.
     </audio>
+
+    <!-- Botão para iniciar a música -->
+    <button onclick="iniciarMusica()" style="position: fixed; bottom: 80px; right: 20px; padding: 10px; background-color: #ff6f61; color: white; border: none; border-radius: 5px; cursor: pointer;">
+        Clique aqui para tocar a música
+    </button>
 
     <!-- Script para o slideshow -->
     <script>
@@ -528,10 +533,12 @@
         setInterval(createHeart, 300); // Cria um coração a cada 300ms
     </script>
 
-    <!-- Script para ajustar o volume da música -->
+    <!-- Script para iniciar a música -->
     <script>
-        const musica = document.getElementById('musica');
-        musica.volume = 0.3; // Ajuste o volume aqui (0.3 = 30%)
+        function iniciarMusica() {
+            const musica = document.getElementById('musica');
+            musica.play();
+        }
     </script>
 
 </body>
