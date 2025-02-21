@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>300 Motivos para Te Amar</title>
+    <style>
+        /* Estilos gerais */
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #fff5f5;
+            color: #4a4a4a;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            overflow-x: hidden; /* Evita barras de rolagem horizontais */
+        }
+
+        /* Cabeçalho */
+        header {
+            background-color: #ff6f61;
+            padding: 20px;
+            color: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+            font-family: 'Dancing Script', cursive;
+        }
+
+        /* Slideshow de fotos */
+        .slideshow-container {
+            max-width: 600px;
+            margin: 20px auto;
+            position: relative;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .mySlides {
+            display: none;
+        }
+
+        .mySlides img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        /* Container dos motivos */
+        .motivos-container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Lista de motivos */
+        .motivos-container ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .motivos-container li {
+            margin: 15px 0;
+            padding: 15px;
+            background-color: #fff0f0;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            font-size: 1.1rem;
+            line-height: 1.6;
+            text-align: left;
+        }
+
+        .motivos-container li:hover {
+            background-color: #ffe6e6;
+            transform: translateY(-2px);
+            transition: all 0.3s ease;
+        }
+
+        /* Botão de voltar ao topo */
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #ff6f61;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 50%;
+            text-decoration: none;
+            font-size: 1.2rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            z-index: 2;
+        }
+
+        .back-to-top:hover {
+            background-color: #ff4a3d;
+            transition: background-color 0.3s ease;
+        }
+
+        /* Rodapé */
+        footer {
+            background-color: #ff6f61;
+            color: white;
+            padding: 10px;
+            margin-top: 30px;
+            font-size: 0.9rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Efeitos de destaque */
+        .destaque {
+            color: #ff6f61;
+            font-weight: bold;
+        }
+
+        /* Corações flutuantes */
+        .heart {
+            position: fixed; /* Fixo para não interferir na rolagem */
+            width: 20px;
+            height: 20px;
+            background-color: #ff6f61;
+            clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 50% 75%, 18% 100%, 0% 38%);
+            animation: float 5s infinite ease-in-out;
+            z-index: 0; /* Fica abaixo do conteúdo */
+        }
+
+        @keyframes float {
+            0% {
+                transform: translateY(0) rotate(0deg);
+                opacity: 1;
+            }
+            50% {
+                transform: translateY(-20px) rotate(180deg);
+                opacity: 0.7;
+            }
+            100% {
+                transform: translateY(0) rotate(360deg);
+                opacity: 1;
+            }
+        }
+
+        /* Fontes personalizadas */
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Georgia&display=swap');
+    </style>
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <h1>300 Motivos para Te Amar</h1>
+    </header>
+
+    <!-- Slideshow de fotos -->
+    <div class="slideshow-container">
+        <div class="mySlides">
+            <img src="0832B6A7-58CF-4DF1-990B-51CEF0678E50.JPG" alt="EU">
+        </div>
+        <div class="mySlides">
+            <img src="D7447624-5A73-4C28-8C5D-76B125A54EFA.JPG" alt="TE">
+        </div>
+        <div class="mySlides">
+            <img src="EA2954CB-8806-45AD-8DE2-DA76B62DF9D4.JPG" alt="AMO">
+        </div>
+    </div>
+
+    <!-- Container dos motivos -->
+    <div class="motivos-container">
+        <ul>
+            <li>1. Eu te amo pelo jeito como você me olha.</li>
+            <li>2. Eu te amo pelo seu sorriso iluminado.</li>
+            <li>3. Eu te amo pela sua risada contagiante.</li>
+            <li>4. Eu te amo pela forma como você me faz sentir especial.</li>
+            <li>5. Eu te amo pela sua paciência comigo.</li>
+            <li>6. Eu te amo pela sua inteligência(menos em Geografia kkk).</li>
+            <li>7. Eu te amo pela sua sensibilidade.</li>
+            <li>8. Eu te amo pela sua coragem.</li>
+            <li>9. Eu te amo pela sua determinação.</li>
+            <li>10. Eu te amo pela sua bondade.</li>
+            <li>11. Eu te amo por ser tão autêntica.</li>
+            <li>12. Eu te amo por ser tão carinhosa.</li>
+            <li>13. Eu te amo por ser tão compreensiva.</li>
+            <li>14. Eu te amo por ser tão divertida.</li>
+            <li>15. Eu te amo por ser tão espontânea.</li>
+            <li>16. Eu te amo por ser tão otimista.</li>
+            <li>17. Eu te amo por ser tão forte.</li>
+            <li>18. Eu te amo por ser tão gentil.</li>
+            <li>19. Eu te amo por ser tão criativa.</li>
+            <li>20. Eu te amo por ser tão leal.</li>
+            <li>21. Eu te amo pelas nossas conversas sem fim.</li>
+            <li>22. Eu te amo pelos nossos abraços apertados.</li>
+            <li>23. Eu te amo pelos nossos beijos apaixonados.</li>
+            <li>24. Eu te amo pelas nossas noites de doramas.</li>
+            <li>25. Eu te amo pelos nossos passeios aleatórios.</li>
+            <li>26. Eu te amo pelas nossas viagens juntos.</li>
+            <li>27. Eu te amo pelas nossas risadas à toa.</li>
+            <li>28. Eu te amo pelos nossos planos para o futuro.</li>
+            <li>29. Eu te amo pelas comidas que você faz.</li>
+            <li>30. Eu te amo pelos nossos momentos de silêncio que dizem tudo.</li>
+            <li>31. Eu te amo pela sua honestidade.</li>
+            <li>32. Eu te amo pela sua humildade.</li>
+            <li>33. Eu te amo pela sua generosidade.</li>
+            <li>34. Eu te amo pela sua paixão pelas coisas que gosta.</li>
+            <li>35. Eu te amo pela sua dedicação.</li>
+            <li>36. Eu te amo pela sua paciência.</li>
+            <li>37. Eu te amo pela sua capacidade de me surpreender.</li>
+            <li>38. Eu te amo pela sua força de vontade.</li>
+            <li>39. Eu te amo pela sua sensatez.</li>
+            <li>40. Eu te amo pela sua capacidade de me acalmar.</li>
+            <li>41. Eu te amo pelo jeito como você arruma o cabelo.</li>
+            <li>42. Eu te amo pelo jeito como você me abraça.</li>
+            <li>43. Eu te amo pelo jeito como você fala dormindo(e ronca).</li>
+            <li>44. Eu te amo pelo jeito como você se preocupa comigo.</li>
+            <li>45. Eu te amo pelo jeito como você cozinha.</li>
+            <li>46. Eu te amo pelo jeito como você dança.</li>
+            <li>47. Eu te amo pelo jeito como você canta(sim, EU AMO).</li>
+            <li>48. Eu te amo pelas músicas que você improvisa.</li>
+            <li>49. Eu te amo pelo jeito como você cuida de mim.</li>
+            <li>50. Eu te amo pelo jeito como você faz meu dia melhor.</li>
+            <li>51. Eu te amo por sonhar alto comigo.</li>
+            <li>52. Eu te amo por acreditar no nosso futuro.</li>
+            <li>53. Eu te amo por planejar coisas incríveis ao meu lado.</li>
+            <li>54. Eu te amo por me incluir nos seus sonhos.</li>
+            <li>55. Eu te amo por me apoiar nos meus objetivos.</li>
+            <li>56. Eu te amo por querer crescer junto comigo.</li>
+            <li>57. Eu te amo por pensar em nós como uma equipe.</li>
+            <li>58. Eu te amo por nunca desistir da gente.</li>
+            <li>59. Eu te amo por sempre buscar o melhor para nós.</li>
+            <li>60. Eu te amo por fazer planos que me deixam animado.</li>
+            <li>61. Eu te amo por me amar do jeito que eu sou.</li>
+            <li>62. Eu te amo por me aceitar com todos os meus defeitos.</li>
+            <li>63. Eu te amo por me perdoar quando eu erro.</li>
+            <li>64. Eu te amo por me apoiar nos meus piores dias.</li>
+            <li>65. Eu te amo por me fazer sentir seguro.</li>
+            <li>66. Eu te amo por me dar confiança.</li>
+            <li>67. Eu te amo por me fazer sentir amado.</li>
+            <li>68. Eu te amo por me entender como ninguém.</li>
+            <li>69. Eu te amo por me fazer feliz todos os dias.</li>
+            <li>70. Eu te amo por ser o meu porto seguro.</li>
+            <li>71. Eu te amo pelas mensagens de bom dia.</li>
+            <li>72. Eu te amo pelas surpresas que você faz.</li>
+            <li>73. Eu te amo pelo seu "eu te amo" antes de dormir.</li>
+            <li>74. Eu te amo pelos cafés da manhã que você prepara e futuramente irá preparar.</li>
+            <li>75. Eu te amo pelos presentes que vêm do coração.</li>
+            <li>76. Eu te amo pelas ligações inesperadas.</li>
+            <li>77. Eu te amo pelas fotos que você me manda.</li>
+            <li>78. Eu te amo pelas memórias que você guarda.</li>
+            <li>79. Eu te amo pelos momentos que você cria.</li>
+            <li>80. Eu te amo pelos detalhes que só você percebe.</li>
+            <li>81. Eu te amo por ser tão única.</li>
+            <li>82. Eu te amo por ser tão verdadeira.</li>
+            <li>83. Eu te amo por ser tão amorosa.</li>
+            <li>84. Eu te amo por ser tão cuidadosa.</li>
+            <li>85. Eu te amo por ser tão atenciosa.</li>
+            <li>86. Eu te amo por ser tão encorajadora.</li>
+            <li>87. Eu te amo por ser tão inspiradora.</li>
+            <li>88. Eu te amo por ser tão companheira.</li>
+            <li>89. Eu te amo por ser tão parceira.</li>
+            <li>90. Eu te amo por ser tão especial.</li>
+            <li>91. Eu te amo por estar ao meu lado nos momentos difíceis.</li>
+            <li>92. Eu te amo por nunca desistir de nós.</li>
+            <li>93. Eu te amo por enfrentar os problemas comigo.</li>
+            <li>94. Eu te amo por me ajudar a crescer.</li>
+            <li>95. Eu te amo por me fazer mais forte.</li>
+            <li>96. Eu te amo por transformar desafios em oportunidades.</li>
+            <li>97. Eu te amo por sempre acreditar na gente.</li>
+            <li>98. Eu te amo por me mostrar que o amor supera tudo.</li>
+            <li>99. Eu te amo por ser minha aliada em tudo.</li>
+            <li>100. Eu te amo por fazer cada dia valer a pena.</li>
+            <li>101. Eu te amo pelo jeito que seu cheiro fica na minha roupa.</li>
+            <li>102. Eu te amo por iluminar qualquer ambiente que entra.</li>
+            <li>103. Eu te amo por me dar a sensação de lar, não importa onde estejamos.</li>
+            <li>104. Eu te amo por me fazer sentir protegido só de estar ao seu lado.</li>
+            <li>105. Eu te amo pelo jeito como você me olha quando estou distraído.</li>
+            <li>106. Eu te amo por sempre encontrar uma forma de me animar.</li>
+            <li>107. Eu te amo porque sua voz me acalma em qualquer situação.</li>
+            <li>108. Eu te amo pela maneira como seu toque tem o poder de me tranquilizar.</li>
+            <li>109. Eu te amo por fazer com que qualquer dia comum se torne especial.</li>
+            <li>110. Eu te amo porque, quando estou com você, o tempo passa rápido demais.</li>
+            <li>111. Eu te amo pela maneira única como você interpreta a vida.</li>
+            <li>112. Eu te amo pelo seu jeito curioso de explorar o mundo.</li>
+            <li>113. Eu te amo porque você enxerga beleza onde ninguém mais vê.</li>
+            <li>114. Eu te amo por ter uma perspectiva tão otimista sobre a vida.</li>
+            <li>115. Eu te amo por conseguir tirar aprendizados até dos piores momentos.</li>
+            <li>116. Eu te amo pelo jeito que você vê possibilidades onde os outros veem problemas.</li>
+            <li>117. Eu te amo porque você me ensina a ver as coisas de um ângulo diferente.</li>
+            <li>118. Eu te amo porque você acredita que tudo tem um motivo para acontecer.</li>
+            <li>119. Eu te amo porque sua visão de mundo me inspira a ser melhor.</li>
+            <li>120. Eu te amo porque sua positividade me ajuda a enfrentar qualquer desafio.</li>
+            <li>121. Eu te amo pelo jeito que você trata as crianças.</li>
+            <li>122. Eu te amo pela sua paciência comigo nas discussões.</li>
+            <li>123. Eu te amo porque você sempre respeita as diferenças.</li>
+            <li>124. Eu te amo pela sua habilidade de saber o que é certo na hora certa</li>
+            <li>125. Eu te amo por sempre tratar bem qualquer pessoa, independentemente de quem seja.</li>
+            <li>126. Eu te amo porque você é sempre educada e gentil.</li>
+            <li>127. Eu te amo porque você sabe exatamente o que dizer para alegrar alguém.</li>
+            <li>128. Eu te amo porque seu sorriso pode mudar o dia de qualquer pessoa.</li>
+            <li>129. Eu te amo pelo carinho com que você cuida dos seus amigos.</li>
+            <li>130. Eu te amo por ser a pessoa que sempre está lá quando alguém precisa.</li>
+            <li>131. Eu te amo pelo jeito como você enxerga graça nas pequenas coisas.</li>
+            <li>132. Eu te amo porque você tem um coração enorme.</li>
+            <li>133. Eu te amo porque você sempre quer aprender algo novo.</li>
+            <li>134. Eu te amo pelo jeito que você fica empolgada quando descobre algo interessante.</li>
+            <li>135. Eu te amo porque você tem um senso de humor afiado.</li>
+            <li>136. Eu te amo pelo jeito engraçado como você fica quando está com sono.</li>
+            <li>137. Eu te amo porque você nunca tenta ser alguém que não é.</li>
+            <li>138. Eu te amo porque você é cheia de surpresas.</li>
+            <li>139. Eu te amo pelo jeito como você se desafia a crescer.</li>
+            <li>140. Eu te amo porque você é incontrolavelmente autêntica.</li>
+            <li>141. Eu te amo porque você tem manias adoráveis que só eu conheço.</li>
+            <li>142. Eu te amo pelo seu jeito de se concentrar quando está focada em algo.</li>
+            <li>143. Eu te amo porque você tem uma memória incrível para detalhes pequenos.</li>
+            <li>144. Eu te amo porque você tem o dom de transformar qualquer momento em algo especial.</li>
+            <li>145. Eu te amo porque seu jeito único me faz te admirar mais a cada dia.</li>
+            <li>146. Eu te amo porque você sempre sabe o que dizer para me animar.</li>
+            <li>147. Eu te amo porque você sempre tem palavras de incentivo.</li>
+            <li>148. Eu te amo pelo seu jeito de cuidar dos detalhes.</li>
+            <li>149. Eu te amo porque você tem uma energia contagiante.</li>
+            <li>150. Eu te amo porque você sabe exatamente como me deixar sem graça de um jeito bom.</li>
+            <li>151. Eu te amo pelo jeito que se preocupa com o cabelo para ser uma inspiração.</li>
+            <li>152. Eu te amo pela sua expressão quando está concentrada em algo.</li>
+            <li>153. Eu te amo porque você sempre me manda mensagens fofas do nada.</li>
+            <li>154. Eu te amo pelo jeito como você se aconchega em mim.</li>
+            <li>155. Eu te amo porque você sempre sabe quando preciso de um abraço.</li>
+            <li>156. Eu te amo pelo jeito como você segura minha mão.</li>
+            <li>157. Eu te amo porque você adora descobrir músicas novas comigo.</li>
+            <li>158. Eu te amo porque você sempre lembra de datas especiais.</li>
+            <li>159. Eu te amo porque você presta atenção nas coisas que eu gosto.</li>
+            <li>160. Eu te amo porque você sempre se preocupa se eu comi bem.</li>
+            <li>161. Eu te amo porque você faz com que os dias ruins sejam mais fáceis.</li>
+            <li>162. Eu te amo porque você me inspira a ser uma pessoa melhor.</li>
+            <li>163. Eu te amo porque você me ensina a ver o lado bom das coisas.</li>
+            <li>164. Eu te amo porque você me faz sentir capaz de alcançar qualquer coisa.</li>
+            <li>165. Eu te amo porque você me motiva a nunca desistir.</li>
+            <li>166. Eu te amo porque você me faz acreditar no amor verdadeiro.</li>
+            <li>167. Eu te amo porque sua presença torna tudo melhor.</li>
+            <li>168. Eu te amo porque você me mostra o valor das pequenas coisas.</li>
+            <li>169. Eu te amo porque você me ajuda a crescer como pessoa.</li>
+            <li>170. Eu te amo porque minha vida mudou para melhor depois que te conheci.</li>
+            <li>171. Eu te amo porque você sempre me dar beijinho de boa noite.</li>
+            <li>172. Eu te amo porque você se preocupa com meu bem-estar.</li>
+            <li>173. Eu te amo porque você sempre pergunta se eu cheguei bem.</li>
+            <li>174. Eu te amo porque você presta atenção quando eu estou cansado.</li>
+            <li>175. Eu te amo porque você se preocupa quando estou doente.</li>
+            <li>176. Eu te amo porque você sempre tenta aliviar meu estresse.</li>
+            <li>177. Eu te amo porque você sabe quando eu preciso de um tempo para mim.</li>
+            <li>178. Eu te amo porque você respeita meus momentos de silêncio.</li>
+            <li>179. Eu te amo porque você me apoia nos momentos difíceis.</li>
+            <li>180. Eu te amo porque você está sempre pronta para me ajudar.</li>
+            <li>181. Eu te amo porque você nunca foge dos problemas.</li>
+            <li>182. Eu te amo porque você enfrenta qualquer dificuldade de cabeça erguida.</li>
+            <li>183. Eu te amo porque você não deixa obstáculos te impedirem.</li>
+            <li>184. Eu te amo porque você encontra soluções criativas para qualquer coisa.</li>
+            <li>185. Eu te amo porque você nunca desiste do que acredita.</li>
+            <li>186. Eu te amo porque você encara desafios com determinação.</li>
+            <li>187. Eu te amo porque você não tem medo de recomeçar.</li>
+            <li>188. Eu te amo porque você sempre tenta ver o lado positivo das dificuldades.</li>
+            <li>189. Eu te amo porque você é mais forte do que imagina.</li>
+            <li>190. Eu te amo porque você me ensina a nunca desistir.</li>
+            <li>191. Eu te amo porque você consegue transformar um dia comum em algo inesquecível.</li>
+            <li>192. Eu te amo porque você sempre tem ideias divertidas do nada.</li>
+            <li>193. Eu te amo porque você me surpreende com sua criatividade.</li>
+            <li>194. Eu te amo porque você me faz sentir que posso ser vulnerável sem medo.</li>
+            <li>195. Eu te amo porque você sempre sabe como me acalmar quando estou ansioso.</li>
+            <li>196. Eu te amo porque você me ensinou a valorizar os pequenos gestos.</li>
+            <li>197. Eu te amo porque você tem um jeito único de me fazer sentir importante.</li>
+            <li>198. Eu te amo porque você sempre me surpreende com sua sabedoria.</li>
+            <li>199. Eu te amo porque você me faz querer ser mais paciente.</li>
+            <li>200. Eu te amo porque você tem uma maneira especial de resolver conflitos.</li>
+            <li>201. Eu te amo porque você me faz sentir que posso contar com você em qualquer situação.</li>
+            <li>202. Eu te amo porque você sempre me apoia, mesmo quando eu duvido de mim mesmo.</li>
+            <li>203. Eu te amo porque você me faz acreditar que posso alcançar meus sonhos.</li>
+            <li>204. Eu te amo porque você me ensina a ver beleza nas coisas simples.</li>
+            <li>205. Eu te amo porque você me faz sentir que posso ser eu mesmo sem medo.</li>
+            <li>206. Eu te amo porque você me ajuda a enxergar o lado bom das coisas.</li>
+            <li>207. Eu te amo porque você me faz rir até nos dias mais difíceis.</li>
+            <li>208. Eu te amo porque você me ensina a ser mais grato.</li>
+            <li>209. Eu te amo porque você me faz sentir que posso superar qualquer desafio.</li>
+            <li>210. Eu te amo porque você me inspira a ser mais generoso.</li>
+            <li>211. Eu te amo porque você me faz sentir que posso ser mais compreensivo.</li>
+            <li>212. Eu te amo porque você me ajuda a ver o mundo de uma forma mais leve.</li>
+            <li>213. Eu te amo porque você me faz sentir que posso ser mais corajoso.</li>
+            <li>214. Eu te amo porque você me ensina a ser mais resiliente.</li>
+            <li>215. Eu te amo porque você me faz sentir que posso ser mais gentil.</li>
+            <li>216. Eu te amo porque você me ajuda a ser mais organizado.</li>
+            <li>217. Eu te amo porque você me faz sentir que posso ser mais atencioso.</li>
+            <li>218. Eu te amo porque você me ensina a ser mais paciente comigo mesmo.</li>
+            <li>219. Eu te amo porque você me faz sentir que posso ser mais dedicado.</li>
+            <li>220. Eu te amo porque você me ajuda a ser mais focado.</li>
+            <li>221. Eu te amo porque você me faz sentir que posso ser mais persistente.</li>
+            <li>222. Eu te amo porque você me ensina a ser mais humilde.</li>
+            <li>223. Eu te amo porque você me faz sentir que posso ser mais sincero.</li>
+            <li>224. Eu te amo porque você me ajuda a ser mais autêntico.</li>
+            <li>225. Eu te amo porque você me faz sentir que posso ser mais confiante.</li>
+            <li>226. Eu te amo porque você me ensina a ser mais otimista.</li>
+            <li>227. Eu te amo porque você me faz sentir que posso ser mais amoroso.</li>
+            <li>228. Eu te amo porque você me ajuda a ser mais cuidadoso.</li>
+            <li>229. Eu te amo porque você me faz sentir que posso ser mais responsável.</li>
+            <li>230. Eu te amo porque você me ensina a ser mais comprometido.</li>
+            <li>231. Eu te amo porque você me faz sentir que posso ser mais dedicado aos nossos sonhos.</li>
+            <li>232. Eu te amo porque você me ajuda a ser mais presente.</li>
+            <li>233. Eu te amo porque você me faz sentir que posso ser mais grato por cada momento.</li>
+            <li>234. Eu te amo porque você me ensina a ser mais paciente com os outros.</li>
+            <li>235. Eu te amo porque você me faz sentir que posso ser mais compreensivo com as pessoas.</li>
+            <li>236. Eu te amo porque você me ajuda a ser mais empático.</li>
+            <li>237. Eu te amo porque você me faz sentir que posso ser mais solidário.</li>
+            <li>238. Eu te amo porque você me ensina a ser mais generoso com meu tempo.</li>
+            <li>239. Eu te amo porque você me faz sentir que posso ser mais atencioso com as pessoas ao meu redor.</li>
+            <li>240. Eu te amo porque você me ajuda a ser mais presente na vida das pessoas que amo.</li>
+            <li>241. Eu te amo porque você me faz sentir que posso ser mais cuidadoso com as palavras que uso.</li>
+            <li>242. Eu te amo porque você me ensina a ser mais gentil comigo mesmo.</li>
+            <li>243. Eu te amo porque você me faz sentir que posso ser mais paciente com meus erros.</li>
+            <li>244. Eu te amo porque você me ajuda a ser mais compreensivo com minhas falhas.</li>
+            <li>245. Eu te amo porque você me faz sentir que posso ser mais amoroso comigo mesmo.</li>
+            <li>246. Eu te amo porque você me ensina a ser mais grato por quem eu sou.</li>
+            <li>247. Eu te amo porque você me faz sentir que posso ser mais confiante em minhas escolhas.</li>
+            <li>248. Eu te amo porque você me ajuda a ser mais corajoso para enfrentar meus medos.</li>
+            <li>249. Eu te amo porque você me faz sentir que posso ser mais resiliente diante das dificuldades.</li>
+            <li>250. Eu te amo porque você me ensina a ser mais forte emocionalmente.</li>
+            <li>251. Eu te amo porque você me faz sentir que posso ser mais paciente com o processo da vida.</li>
+            <li>252. Eu te amo porque você me ajuda a ser mais otimista em relação ao futuro.</li>
+            <li>253. Eu te amo porque você me faz sentir que posso ser mais amoroso com as pessoas que amo.</li>
+            <li>254. Eu te amo porque você me ensina a ser mais presente nos momentos importantes.</li>
+            <li>255. Eu te amo porque você me faz sentir que posso ser mais cuidadoso com os sentimentos dos outros.</li>
+            <li>256. Eu te amo porque você me ajuda a ser mais atencioso com as necessidades das pessoas ao meu redor.</li>
+            <li>257. Eu te amo porque você me faz sentir que posso ser mais generoso com meu amor.</li>
+            <li>258. Eu te amo porque você me ensina a ser mais paciente com os processos naturais da vida.</li>
+            <li>259. Eu te amo porque você me faz sentir que posso ser mais compreensivo com as diferenças.</li>
+            <li>260. Eu te amo porque você me ajuda a ser mais empático com as histórias dos outros.</li>
+            <li>261. Eu te amo porque você me faz sentir que posso ser mais solidário com quem precisa.</li>
+            <li>262. Eu te amo porque você me ensina a ser mais generoso com meu tempo e atenção.</li>
+            <li>263. Eu te amo porque você me faz sentir que posso ser mais atencioso com os detalhes da vida.</li>
+            <li>264. Eu te amo porque você me ajuda a ser mais presente em cada momento.</li>
+            <li>265. Eu te amo porque você me faz sentir que posso ser mais grato por cada pequena coisa.</li>
+            <li>266. Eu te amo porque você me ensina a ser mais paciente com os desafios.</li>
+            <li>267. Eu te amo porque você me faz sentir que posso ser mais compreensivo com as falhas alheias.</li>
+            <li>268. Eu te amo porque você me ajuda a ser mais empático com as dores dos outros.</li>
+            <li>269. Eu te amo porque você me faz sentir que posso ser mais solidário com as causas que importam.</li>
+            <li>270. Eu te amo porque você me ensina a ser mais generoso com meu coração.</li>
+            <li>271. Eu te amo porque você me faz sentir que posso ser mais atencioso com as pessoas que amo.</li>
+            <li>272. Eu te amo porque você me ajuda a ser mais presente na vida daqueles que importam.</li>
+            <li>273. Eu te amo porque você me faz sentir que posso ser mais grato por cada momento ao seu lado.</li>
+            <li>274. Eu te amo porque você me ensina a ser mais paciente com os altos e baixos da vida.</li>
+            <li>275. Eu te amo porque você me faz sentir que posso ser mais compreensivo com as limitações dos outros.</li>
+            <li>276. Eu te amo porque você me ajuda a ser mais empático com as histórias de vida das pessoas.</li>
+            <li>277. Eu te amo porque você me faz sentir que posso ser mais solidário com as lutas alheias.</li>
+            <li>278. Eu te amo porque você me ensina a ser mais generoso com meu tempo e energia.</li>
+            <li>279. Eu te amo porque você me faz sentir que posso ser mais atencioso com os pequenos detalhes que fazem a diferença.</li>
+            <li>280. Eu te amo porque você me ajuda a ser mais presente em cada momento ao seu lado.</li>
+            <li>281. Eu te amo porque você me faz sentir que posso ser mais grato por cada dia que passamos juntos.</li>
+            <li>282. Eu te amo porque você me ensina a ser mais paciente com os processos naturais da vida.</li>
+            <li>283. Eu te amo porque você me faz sentir que posso ser mais compreensivo com as diferenças que nos tornam únicos.</li>
+            <li>284. Eu te amo porque você me ajuda a ser mais empático com as histórias que moldam as pessoas.</li>
+            <li>285. Eu te amo porque você me faz sentir que posso ser mais solidário com as causas que merecem atenção.</li>
+            <li>286. Eu te amo porque você me ensina a ser mais generoso com meu amor e atenção.</li>
+            <li>287. Eu te amo porque você me faz sentir que posso ser mais atencioso com as pessoas que fazem parte da minha vida.</li>
+            <li>288. Eu te amo porque você me ajuda a ser mais presente na vida daqueles que amo.</li>
+            <li>289. Eu te amo porque você me faz sentir que posso ser mais grato por cada momento que compartilhamos.</li>
+            <li>290. Eu te amo porque você me ensina a ser mais paciente com os desafios que a vida nos apresenta.</li>
+            <li>291. Eu te amo porque você me faz sentir que posso ser mais compreensivo com as falhas que todos nós temos.</li>
+            <li>292. Eu te amo porque você me ajuda a ser mais empático com as dores que todos carregamos.</li>
+            <li>293. Eu te amo porque você me faz sentir que posso ser mais solidário com as lutas que todos enfrentamos.</li>
+            <li>294. Eu te amo porque você me ensina a ser mais generoso com meu tempo e dedicação.</li>
+            <li>295. Eu te amo porque você me faz sentir que posso ser mais atencioso com os detalhes que tornam a vida especial.</li>
+            <li>296. Eu te amo porque você me ajuda a ser mais presente em cada momento ao seu lado.</li>
+            <li>297. Eu te amo porque você me faz sentir que posso ser mais grato por cada dia que passamos juntos.</li>
+            <li>298. Eu te amo porque você me ensina a ser mais paciente com os processos que nos fazem crescer.</li>
+            <li>299. Eu te amo porque você me faz sentir que posso ser mais compreensivo com as diferenças que nos tornam únicos.</li>
+            <li>300. Eu te amo porque você querer a Analua e Itálo comigo.</li>
+        </ul>
+    </div>
+
+    <!-- Botão de voltar ao topo -->
+    <a href="#" class="back-to-top">↑</a>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>Feito com ❤️ por Timoti</p>
+    </footer>
+
+    <!-- Música de fundo -->
+    <audio id="musica" autoplay loop>
+        <source src="Iframe _Turning Page_ by Sleeping At Last (Official Music Video) [-hb2tecD13s].mp3" type="audio/mpeg">
+        Seu navegador não suporta áudio.
+    </audio>
+
+    <!-- Script para o slideshow -->
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let slides = document.getElementsByClassName("mySlides");
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides, 3000); // Troca de foto a cada 3 segundos
+        }
+    </script>
+
+    <!-- Script para os corações flutuantes -->
+    <script>
+        function createHeart() {
+            const heart = document.createElement('div');
+            heart.classList.add('heart');
+            heart.style.left = Math.random() * 100 + 'vw';
+            heart.style.animationDuration = Math.random() * 3 + 2 + 's';
+            heart.style.opacity = Math.random();
+            heart.style.width = Math.random() * 20 + 10 + 'px';
+            heart.style.height = heart.style.width;
+            document.body.appendChild(heart);
+
+            setTimeout(() => {
+                heart.remove();
+            }, 5000);
+        }
+
+        setInterval(createHeart, 300); // Cria um coração a cada 300ms
+    </script>
+
+    <!-- Script para ajustar o volume da música -->
+    <script>
+        const musica = document.getElementById('musica');
+        musica.volume = 0.3; // Ajuste o volume aqui (0.3 = 30%)
+    </script>
+
+</body>
+</html>
